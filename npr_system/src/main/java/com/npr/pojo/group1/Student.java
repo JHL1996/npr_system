@@ -6,6 +6,15 @@ package com.npr.pojo.group1;
 public class Student {
     private String name;
     private int sex;
+    private String cname;
+
+    public String getCname() {
+        return cname;
+    }
+
+    public void setCname() {
+        this.cname = "java";
+    }
 
     public void setName(String name) {
         this.name = name;
