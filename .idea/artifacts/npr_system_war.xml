@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="npr_system:war">
+    <output-path>$PROJECT_DIR$/npr_system/target</output-path>
+    <root id="archive" name="npr_system.war">
+      <element id="artifact" artifact-name="npr_system:war exploded" />
+    </root>
+  </artifact>
+</component>
