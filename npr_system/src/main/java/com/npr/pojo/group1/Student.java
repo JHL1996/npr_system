@@ -5,6 +5,19 @@ package com.npr.pojo.group1;
  */
 public class Student {
     private String name;
+    private int sex;
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public int getSex() {
+        return sex;
+    }
+
+    public void setSex(int sex) {
+        this.sex = sex;
+    }
 
     public void setName() {
         this.name = "hallen";
@@ -13,4 +26,5 @@ public class Student {
     public String getName() {
         return name;
     }
+
 }
