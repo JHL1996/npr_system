@@ -5,4 +5,12 @@ package com.npr.pojo.group1;
  */
 public class Student {
     private String name;
+
+    public void setName() {
+        this.name = "hallen";
+    }
+
+    public String getName() {
+        return name;
+    }
 }
