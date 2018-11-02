@@ -1,9 +1,11 @@
 package com.npr.pojo.group1;
 
+import java.io.Serializable;
+
 /**
  * 用来上传的
  */
-public class Student {
+public class Student implements Serializable{
     private String name;
     private int sex;
     private String cname;
